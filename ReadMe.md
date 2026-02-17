@@ -2,8 +2,6 @@
 
 # 👋 Hi, I’m Bertrand S.
 
-**Builder type.** I ship real systems, then tighten them until they’re fast, secure, and boring to operate.
-
 <p>
   <a href="https://sbertrandportfolio.netlify.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/bertrand-s-10b698206/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -13,51 +11,33 @@
 
 ---
 
-## 🛠️ What I’m building right now
+## 🧠 Focus Areas
 
-- **CertiLect (formerly Transcripta)**: digitally signed academic credentials with instant online verification  
-- **RemitBond**: fintech-style money transfer (Flutter + FastAPI) with KYC, audit logs, and margin logic  
-- **TrustEcho AI**: real-time detection of social engineering scams targeting mobile money users (calls + messages)  
-- **Closekin**: hyperlocal social app for apartment buildings (Flutter + FastAPI)  
-- **Infra + reliability**: caching, rate limiting, streaming workflows, admin tooling, operational hardening  
-
----
-
-## 🤝 Open to collaborating on
-
-- Academic credentialing rails (issuance, verification, signing, secure delivery)
-- Fintech infrastructure (payments, compliance-aware UX, auditability)
-- Applied security + privacy tooling
-- Speech/ML for underrepresented languages (Kinyarwanda especially)
-- Robotics and drone navigation (simulation or real hardware)
+- Backend engineering (FastAPI, auth, rate limiting, caching, real-time)
+- Security engineering (threat modeling, secure defaults, auditability)
+- Document trust systems (PKI, digital signatures, verification flows)
+- Fintech rails (KYC-friendly workflows, logging, correctness in money math)
+- Reliability (operational tooling, monitoring, incident-friendly design)
 
 ---
 
-## 🧩 I’m looking for help with
+## 🚧 Active Projects
 
-- University partnerships and pilots for credential issuance and verification
-- Payment rails strategy (mobile money + card payments) and scaling ops cleanly
-- Go-to-market and distribution in higher-ed and regulated fintech contexts
-- Anything that makes “secure by default” easier for real users
-
----
-
-## 🌱 Currently learning
-
-- Drone programming (started as a total newbie)
-- ROS2 + Gazebo simulation for multi-drone work
-- Better cryptographic signing workflows and long-term trust models
-- Product strategy for turning infrastructure into adoption
+- **CertiLect**: credential signing + verification infrastructure (PKI-style trust model)
+- **RemitBond**: regulated-style transfer stack (Flutter + FastAPI)
+- **TrustEcho AI**: real-time scam pattern detection for calls and messages
+- **Closekin**: hyperlocal app with real-time and moderation primitives
+- **Infra work**: streaming workflows, caching layers, admin tooling
 
 ---
 
-## 💬 Ask me about
+## 🧰 What I tend to build
 
-- FastAPI backends, auth patterns, rate limiting, audit logging
-- Flutter product builds that actually feel fintech-clean
-- React + Tailwind admin dashboards and calm UX
-- Redis, caching strategy, real-time systems, operational hardening
-- Secure document signing and verification flows (PAdES-style thinking)
+- Secure APIs with clear trust boundaries
+- Audit logs that are actually useful in investigations
+- Deterministic money and pricing logic (no surprises)
+- Document issuance and verification pipelines (sign, verify, revoke, prove)
+- Systems that degrade gracefully and are easy to operate
 
 ---
 
@@ -98,8 +78,8 @@
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Heroku](https://img.shields.io/badge/heroku-%23430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
