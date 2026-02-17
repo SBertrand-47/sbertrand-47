@@ -13,31 +13,33 @@
 
 ## 🧠 Focus Areas
 
-- Backend engineering (FastAPI, auth, rate limiting, caching, real-time)
-- Security engineering (threat modeling, secure defaults, auditability)
-- Document trust systems (PKI, digital signatures, verification flows)
-- Fintech rails (KYC-friendly workflows, logging, correctness in money math)
-- Reliability (operational tooling, monitoring, incident-friendly design)
+- Autonomous systems and robotics (navigation, control loops, simulation-to-real)
+- Applied AI/ML (speech and language, classification, anomaly detection)
+- PKI and trust infrastructure (signing, verification, revocation, evidence chains)
+- Security-first product engineering (threat modeling, secure defaults, hardening)
+- High-performance systems (profiling, caching, low-latency APIs, correctness under load)
+- Fintech-style rails (KYC-aware flows, auditability, deterministic money math)
 
 ---
 
 ## 🚧 Active Projects
 
-- **CertiLect**: credential signing + verification infrastructure (PKI-style trust model)
-- **RemitBond**: regulated-style transfer stack (Flutter + FastAPI)
-- **TrustEcho AI**: real-time scam pattern detection for calls and messages
-- **Closekin**: hyperlocal app with real-time and moderation primitives
-- **Infra work**: streaming workflows, caching layers, admin tooling
+- **CertiLect**: digitally signed credentials and instant verification
+- **RemitBond**: fintech-style transfer stack (Flutter + FastAPI)
+- **TrustEcho AI**: real-time scam detection for calls and messages
+- **Closekin**: hyperlocal social platform (Flutter + FastAPI)
 
 ---
 
 ## 🧰 What I tend to build
 
-- Secure APIs with clear trust boundaries
-- Audit logs that are actually useful in investigations
+- Secure APIs with explicit trust boundaries
+- Audit logs built for investigations and incident response
 - Deterministic money and pricing logic (no surprises)
 - Document issuance and verification pipelines (sign, verify, revoke, prove)
-- Systems that degrade gracefully and are easy to operate
+- Autonomous systems (perception + navigation) in simulation and real hardware
+- Highly optimized systems that stay stable under load
+
 
 ---
 
