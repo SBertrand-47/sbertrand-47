@@ -40,7 +40,6 @@
 - Autonomous systems (perception + navigation) in simulation and real hardware
 - Highly optimized systems that stay stable under load
 
-
 ---
 
 ## 💻 Tech Stack
@@ -116,20 +115,6 @@
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 </details>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=SBertrand-47&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=SBertrand-47&theme=dark&hide_border=true)
-<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=SBertrand-47&theme=dark&hide_border=true&layout=compact)
-
-</div>
 
 ---
 
