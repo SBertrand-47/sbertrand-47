@@ -12,8 +12,6 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/github/followers/SBertrand-47?style=flat-square&label=followers&color=39FF14" />
-  <img src="https://img.shields.io/github/stars/SBertrand-47?style=flat-square&label=stars&color=39FF14" />
   <img src="https://img.shields.io/github/last-commit/SBertrand-47/SBertrand-47?style=flat-square&label=last%20commit&color=39FF14" />
 </p>
 
@@ -61,3 +59,48 @@
     </td>
   </tr>
 </table>
+
+---
+
+## 🧭 Systems map
+
+```mermaid
+flowchart LR
+  subgraph TRUST[Trust Layer]
+    PKI[PKI Signing + Verification]
+    EVID[Evidence Chains + Audit Logs]
+    REVOKE[Revocation + Lifecycle]
+  end
+
+  subgraph PROD[Products]
+    CL[CertiLect]
+    TE[TrustEcho AI]
+    RB[RemitBond]
+    CK[Closekin]
+  end
+
+  subgraph RUNTIME[Runtime]
+    API[Low-latency APIs]
+    CACHE[Caching + Rate Limits]
+    OBS[Observability]
+  end
+
+  CL --> PKI
+  CL --> REVOKE
+  CL --> EVID
+
+  TE --> API
+  TE --> OBS
+  TE --> EVID
+
+  RB --> API
+  RB --> CACHE
+  RB --> EVID
+
+  CK --> API
+  CK --> CACHE
+  CK --> OBS
+
+  PKI --> OBS
+  EVID --> OBS
+  API --> OBS
