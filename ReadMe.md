@@ -24,28 +24,28 @@
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <h4>🔐 Trust and integrity</h4>
+      <h4>🔐 Cryptography and trust</h4>
       <ul>
-        <li><b>PKI:</b> digital signatures, certificate handling, revocation thinking</li>
-        <li><b>Evidence chains:</b> verifiable audit trails built for scrutiny</li>
-        <li><b>Security posture:</b> threat modeling, secure defaults, hardening</li>
+        <li><b>PKI:</b> digital signatures, certificate chains, verification flows</li>
+        <li><b>Crypto primitives:</b> hashing, signatures, key handling, threat-aware design</li>
+        <li><b>Tamper evidence:</b> integrity logs and verifiable records built to survive scrutiny</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h4>🤖 Applied intelligence</h4>
       <ul>
         <li><b>Computer vision:</b> YOLO, OpenCV, SLAM-adjacent work</li>
-        <li><b>ML ops:</b> anomaly detection, classification, evaluation loops</li>
+        <li><b>ML systems:</b> anomaly detection, classification, evaluation loops</li>
         <li><b>Robotics:</b> control loops, sim-to-real mindset</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>💳 Fintech rails</h4>
+      <h4>💳 Transactional systems</h4>
       <ul>
         <li><b>Deterministic logic:</b> exact money math, rounding rules, invariants</li>
-        <li><b>KYC aware:</b> compliant onboarding flows and auditability</li>
+        <li><b>Compliance aware:</b> KYC flows, sensitive data handling, least-privilege access</li>
         <li><b>Throughput:</b> low-latency APIs, caching, correctness under load</li>
       </ul>
     </td>
@@ -53,7 +53,7 @@
       <h4>🏗️ System architecture</h4>
       <ul>
         <li><b>Scalability:</b> profiling, aggressive caching, sane invalidation</li>
-        <li><b>Observability:</b> structured logs, traces, Sentry style feedback loops</li>
+        <li><b>Observability:</b> structured logs, traces, feedback-driven reliability</li>
         <li><b>DevOps:</b> AWS, GCP, Nginx, CI/CD</li>
       </ul>
     </td>
@@ -68,39 +68,44 @@
 flowchart LR
   subgraph TRUST[Trust Layer]
     PKI[PKI Signing + Verification]
-    EVID[Evidence Chains + Audit Logs]
-    REVOKE[Revocation + Lifecycle]
+    CRYPTO[Hashes + Signatures + Key Handling]
+    LIFECYCLE[Key Lifecycle: rotation + revocation + expiry]
+    INTEGRITY[Integrity Records: tamper-evident logs]
   end
 
-  subgraph PROD[Products]
-    CL[CertiLect]
-    TE[TrustEcho AI]
-    RB[RemitBond]
-    CK[Closekin]
+  subgraph DOMAINS[Domains shipped]
+    DOCS[Verifiable documents + identity-bound artifacts]
+    DETECT[Real-time detection + abuse resistance]
+    TRANS[Transactional platforms + payout logic]
+    PLAT[High-trust web platforms]
   end
 
   subgraph RUNTIME[Runtime]
     API[Low-latency APIs]
-    CACHE[Caching + Rate Limits]
+    CACHE[Caching + rate limiting]
+    DATA[Data models + indexing]
     OBS[Observability]
   end
 
-  CL --> PKI
-  CL --> REVOKE
-  CL --> EVID
+  DOCS --> PKI
+  DOCS --> CRYPTO
+  DOCS --> LIFECYCLE
+  DOCS --> INTEGRITY
 
-  TE --> API
-  TE --> OBS
-  TE --> EVID
+  DETECT --> API
+  DETECT --> OBS
+  DETECT --> INTEGRITY
 
-  RB --> API
-  RB --> CACHE
-  RB --> EVID
+  TRANS --> API
+  TRANS --> CACHE
+  TRANS --> DATA
 
-  CK --> API
-  CK --> CACHE
-  CK --> OBS
+  PLAT --> API
+  PLAT --> CACHE
+  PLAT --> OBS
+  PLAT --> DATA
 
+  CRYPTO --> OBS
   PKI --> OBS
-  EVID --> OBS
   API --> OBS
+  DATA --> OBS
