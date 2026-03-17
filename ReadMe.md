@@ -32,61 +32,73 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 
 ## Focus areas
 
-<table>
+<table align="center">
   <tr>
-    <td valign="top" width="50%">
-      
-### Backend Engineering
+    <td width="50%" valign="top">
+
+### ⚙️ Backend Engineering
+
 <img src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi" />
 <img src="https://img.shields.io/badge/Flask-111111?style=flat-square&logo=flask" />
 <img src="https://img.shields.io/badge/Django-111111?style=flat-square&logo=django" />
 <img src="https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis" />
 
-- API design and service architecture  
-- Concurrency, caching, and rate limiting  
-- Performance-focused backend systems  
+<table>
+  <tr><td>🚀 API design and service architecture</td></tr>
+  <tr><td>⚡ Concurrency, caching, and rate limiting</td></tr>
+  <tr><td>🧩 Performance-focused backend systems</td></tr>
+</table>
 
 </td>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### Frontend and Full Stack
+### 🖥️ Frontend and Full Stack
+
 <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react" />
 <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript" />
 <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript" />
 <img src="https://img.shields.io/badge/Flutter-111111?style=flat-square&logo=flutter" />
 
-- Interactive web applications  
-- End-to-end product development  
-- Clean UI with practical engineering  
+<table>
+  <tr><td>🎨 Interactive web applications</td></tr>
+  <tr><td>🛠️ End-to-end product development</td></tr>
+  <tr><td>✨ Clean UI with practical engineering</td></tr>
+</table>
 
 </td>
   </tr>
 
   <tr>
-    <td valign="top" width="50%">
+    <td width="50%" valign="top">
 
-### Machine Learning
+### 🤖 Machine Learning
+
 <img src="https://img.shields.io/badge/PyTorch-111111?style=flat-square&logo=pytorch" />
 <img src="https://img.shields.io/badge/OpenCV-111111?style=flat-square&logo=opencv" />
 <img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python" />
 <img src="https://img.shields.io/badge/C%2B%2B-111111?style=flat-square&logo=c%2B%2B" />
 
-- Computer vision and NLP systems  
-- Real-time inference pipelines  
-- Model evaluation and optimization  
+<table>
+  <tr><td>🧠 Computer vision and NLP systems</td></tr>
+  <tr><td>📡 Real-time inference pipelines</td></tr>
+  <tr><td>📈 Model evaluation and optimization</td></tr>
+</table>
 
 </td>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### Cloud and Infrastructure
+### ☁️ Cloud and Infrastructure
+
 <img src="https://img.shields.io/badge/AWS-111111?style=flat-square&logo=amazonaws" />
 <img src="https://img.shields.io/badge/GCP-111111?style=flat-square&logo=googlecloud" />
 <img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker" />
 <img src="https://img.shields.io/badge/Kubernetes-111111?style=flat-square&logo=kubernetes" />
 
-- Cloud-native deployment  
-- Scalable infrastructure and observability  
-- Reliability, automation, and DevOps  
+<table>
+  <tr><td>☁️ Cloud-native deployment</td></tr>
+  <tr><td>📊 Scalable infrastructure and observability</td></tr>
+  <tr><td>🔧 Reliability, automation, and DevOps</td></tr>
+</table>
 
 </td>
   </tr>
@@ -94,30 +106,36 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 
 ---
 
-## Tech stack
+## Engineering map
 
-**Languages**  
-`Python` `Java` `C++` `Go` `JavaScript` `TypeScript` `PHP` `SQL` `Dart`
+```mermaid
+flowchart LR
+  subgraph CORE[Core Engineering]
+    BE[Backend Engineering]
+    FE[Frontend Engineering]
+    FS[Full Stack Development]
+  end
 
-**Frameworks and tools**  
-`FastAPI` `React` `Flask` `Django` `PyTorch` `OpenCV` `Flutter` `Celery`
+  subgraph ML[Machine Learning]
+    NLP[NLP Systems]
+    CV[Computer Vision]
+    INF[Inference Pipelines]
+  end
 
-**Infrastructure**  
-`AWS` `GCP` `Docker` `Kubernetes` `Redis` `Nginx` `Linux` `Git`
+  subgraph PLATFORM[Platform and Infrastructure]
+    CLOUD[Cloud Infrastructure]
+    CACHE[Caching and Performance]
+    DIST[Distributed Systems]
+    OBS[Testing and Reliability]
+  end
 
----
-
-## What I like building
-
-- Scalable backend systems
-- Full stack web products
-- Machine learning powered applications
-- Distributed systems and cloud infrastructure
-- Software that stays reliable under real usage
-
----
-
-## Connect
-
-- Portfolio: [sbertrandportfolio.netlify.app](https://sbertrandportfolio.netlify.app/)
-- LinkedIn: [linkedin.com/in/bertrand-s-10b698206](https://www.linkedin.com/in/bertrand-s-10b698206/)
+  BE --> FS
+  FE --> FS
+  NLP --> INF
+  CV --> INF
+  FS --> CLOUD
+  FS --> CACHE
+  FS --> DIST
+  CLOUD --> OBS
+  CACHE --> OBS
+  DIST --> OBS
