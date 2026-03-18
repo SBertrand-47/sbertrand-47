@@ -6,7 +6,7 @@
 
 <h2>Software Engineer | Founder | Backend, Full Stack, Machine Learning</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=820&lines=Founder;Backend+and+Full+Stack+Engineer;Machine+Learning+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=820&lines=Founder;Backend+and+Full+Stack+Engineer;Machine+Learning%2C+Search%2C+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
 
 <br/>
 
@@ -24,7 +24,7 @@
 
 ## About me
 
-I am a software engineer and founder who enjoys building products across backend systems, modern web apps, machine learning, and cloud infrastructure.
+I am a software engineer and founder who enjoys building products across backend systems, modern web apps, machine learning, search infrastructure, and cloud platforms.
 
 I care about software that is fast, scalable, cleanly designed, and reliable in production.
 
@@ -38,15 +38,17 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 
 ### ⚙️ Backend Engineering
 
+<img src="https://img.shields.io/badge/Go-111111?style=flat-square&logo=go" />
 <img src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi" />
 <img src="https://img.shields.io/badge/Flask-111111?style=flat-square&logo=flask" />
 <img src="https://img.shields.io/badge/Django-111111?style=flat-square&logo=django" />
 <img src="https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis" />
+<img src="https://img.shields.io/badge/Elasticsearch-111111?style=flat-square&logo=elasticsearch" />
 
 <table>
   <tr><td>🚀 API design and service architecture</td></tr>
-  <tr><td>⚡ Concurrency, caching, and rate limiting</td></tr>
-  <tr><td>🧩 Performance-focused backend systems</td></tr>
+  <tr><td>⚡ Concurrency, caching, and search systems</td></tr>
+  <tr><td>🧩 Performance-focused backend services</td></tr>
 </table>
 
 </td>
@@ -112,8 +114,11 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 flowchart LR
   subgraph CORE[Core Engineering]
     BE[Backend Engineering]
+    GO[Go Services]
+    PY[Python Services]
     FE[Frontend Engineering]
     FS[Full Stack Development]
+    SEARCH[Search Systems]
   end
 
   subgraph ML[Machine Learning]
@@ -126,16 +131,44 @@ flowchart LR
     CLOUD[Cloud Infrastructure]
     CACHE[Caching and Performance]
     DIST[Distributed Systems]
+    ES[Elasticsearch]
     OBS[Testing and Reliability]
   end
 
-  BE --> FS
+  BE --> GO
+  BE --> PY
+  BE --> SEARCH
   FE --> FS
+  GO --> FS
+  PY --> FS
+  SEARCH --> ES
   NLP --> INF
   CV --> INF
   FS --> CLOUD
   FS --> CACHE
   FS --> DIST
+  DIST --> ES
   CLOUD --> OBS
   CACHE --> OBS
-  DIST --> OBS
+  ES --> OBS
+```
+
+---
+
+## Current interests
+
+- Backend systems and distributed services
+- Full stack product engineering
+- Machine learning and real-time inference
+- Search, retrieval, and data-intensive systems
+- Cloud infrastructure and developer tooling
+
+---
+
+## Connect
+
+<div align="center">
+  <a href="https://sbertrandportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/bertrand-s-10b698206/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/SBertrand-47"><img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
