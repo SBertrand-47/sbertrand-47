@@ -6,7 +6,7 @@
 
 <h2>Software Engineer | Founder | Backend, Full Stack, Machine Learning</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=820&lines=Founder;Backend+and+Full+Stack+Engineer;Machine+Learning%2C+Search%2C+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=920&lines=Founder;Backend+and+Full+Stack+Engineer;Machine+Learning%2C+Search%2C+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
 
 <br/>
 
@@ -24,7 +24,7 @@
 
 ## About me
 
-I am a software engineer and founder who enjoys building products across backend systems, modern web apps, machine learning, search infrastructure, and cloud platforms.
+I am a software engineer and founder who enjoys building products across backend systems, modern web apps, machine learning, search infrastructure, databases, and cloud platforms.
 
 I care about software that is fast, scalable, cleanly designed, and reliable in production.
 
@@ -39,6 +39,7 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 ### ⚙️ Backend Engineering
 
 <img src="https://img.shields.io/badge/Go-111111?style=flat-square&logo=go" />
+<img src="https://img.shields.io/badge/PHP-111111?style=flat-square&logo=php" />
 <img src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi" />
 <img src="https://img.shields.io/badge/Flask-111111?style=flat-square&logo=flask" />
 <img src="https://img.shields.io/badge/Django-111111?style=flat-square&logo=django" />
@@ -60,6 +61,8 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript" />
 <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript" />
 <img src="https://img.shields.io/badge/Flutter-111111?style=flat-square&logo=flutter" />
+<img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-111111?style=flat-square&logo=tailwindcss" />
 
 <table>
   <tr><td>🎨 Interactive web applications</td></tr>
@@ -72,6 +75,23 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 
   <tr>
     <td width="50%" valign="top">
+
+### 🗄️ Databases and Data Systems
+
+<img src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql" />
+<img src="https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql" />
+<img src="https://img.shields.io/badge/SQL_Server-111111?style=flat-square&logo=microsoftsqlserver" />
+<img src="https://img.shields.io/badge/SQLite-111111?style=flat-square&logo=sqlite" />
+<img src="https://img.shields.io/badge/MongoDB-111111?style=flat-square&logo=mongodb" />
+
+<table>
+  <tr><td>🧱 Relational and document-based data modeling</td></tr>
+  <tr><td>📚 Query design, indexing, and data access patterns</td></tr>
+  <tr><td>🔎 Search-aware and performance-conscious storage systems</td></tr>
+</table>
+
+</td>
+<td width="50%" valign="top">
 
 ### 🤖 Machine Learning
 
@@ -87,7 +107,10 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
 </table>
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+
+  <tr>
+    <td width="50%" valign="top">
 
 ### ☁️ Cloud and Infrastructure
 
@@ -100,6 +123,17 @@ I care about software that is fast, scalable, cleanly designed, and reliable in 
   <tr><td>☁️ Cloud-native deployment</td></tr>
   <tr><td>📊 Scalable infrastructure and observability</td></tr>
   <tr><td>🔧 Reliability, automation, and DevOps</td></tr>
+</table>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 Engineering Style
+
+<table>
+  <tr><td>🏗️ Systems thinking across product and infrastructure</td></tr>
+  <tr><td>📐 Clean architecture with practical tradeoffs</td></tr>
+  <tr><td>🚀 Fast execution without sacrificing reliability</td></tr>
 </table>
 
 </td>
@@ -116,9 +150,18 @@ flowchart LR
     BE[Backend Engineering]
     GO[Go Services]
     PY[Python Services]
+    PHP[PHP Systems]
     FE[Frontend Engineering]
     FS[Full Stack Development]
+    UI[CSS and Tailwind]
     SEARCH[Search Systems]
+  end
+
+  subgraph DATA[Data Layer]
+    SQL[SQL Databases]
+    NOSQL[NoSQL Databases]
+    ES[Elasticsearch]
+    CACHE[Redis and Caching]
   end
 
   subgraph ML[Machine Learning]
@@ -129,25 +172,28 @@ flowchart LR
 
   subgraph PLATFORM[Platform and Infrastructure]
     CLOUD[Cloud Infrastructure]
-    CACHE[Caching and Performance]
     DIST[Distributed Systems]
-    ES[Elasticsearch]
     OBS[Testing and Reliability]
   end
 
   BE --> GO
   BE --> PY
+  BE --> PHP
   BE --> SEARCH
   FE --> FS
+  FE --> UI
   GO --> FS
   PY --> FS
+  PHP --> FS
   SEARCH --> ES
+  SQL --> ES
+  SQL --> CACHE
+  NOSQL --> CACHE
   NLP --> INF
   CV --> INF
   FS --> CLOUD
-  FS --> CACHE
   FS --> DIST
-  DIST --> ES
+  DIST --> OBS
   CLOUD --> OBS
   CACHE --> OBS
   ES --> OBS
@@ -161,6 +207,7 @@ flowchart LR
 - Full stack product engineering
 - Machine learning and real-time inference
 - Search, retrieval, and data-intensive systems
+- Databases, caching, and performance optimization
 - Cloud infrastructure and developer tooling
 
 ---
