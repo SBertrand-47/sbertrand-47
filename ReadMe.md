@@ -6,7 +6,7 @@
 
 <h2>Software Engineer | Founder | Backend, Full Stack, Machine Learning</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=820&lines=Founder+who+still+loves+shipping;Backend+and+Full+Stack+Engineer;Machine+Learning+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=700&color=39FF14&center=true&vCenter=true&width=820&lines=Founder;Backend+and+Full+Stack+Engineer;Machine+Learning+and+Cloud+Systems;Building+fast%2C+reliable%2C+useful+software" alt="Typing SVG" />
 
 <br/>
 
